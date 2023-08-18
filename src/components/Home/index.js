@@ -1,5 +1,4 @@
 import LogoTitle from '../../assets/images/logo-s.png'
-import Logo from './Logo'
 import './index.scss'
 import { Link } from 'react-router-dom';
 
