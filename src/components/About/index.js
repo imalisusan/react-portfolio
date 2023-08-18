@@ -1,23 +1,21 @@
 import { useState } from 'react'
-// import {
-//   faCss3,
-//   faGitAlt,
-//   faGolang,
-//   faHtml5,
-//   faLaravel,
-//   faNodeJs,
-//   faPhp,
-//   faReact,
-// } from '@fortawesome/free-brands-svg-icons'
+import {
+  faCss3,
+  faGitAlt,
+  faGolang,
+  faHtml5,
+  faLaravel,
+  faNodeJs,
+  faPhp,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const About = () => {
     const [letterClass] = useState('text-animate')
-
-
-
+    
     return (
     <>
         <div className="container about-page">
@@ -34,7 +32,7 @@ const About = () => {
                 <p>My tech stack encompasses a diverse range of cutting-edge tools and frameworks that I have expertly utilized throughout my journey. From spearheading the development of applications using Laravel, REST APIs, MVC Architecture, and Stripe payments integration, to mastering React.js, Node.js, Express.js, gRPC, and MongoDB for backend development, my toolkit is a fusion of versatility and proficiency. I've seamlessly integrated Git, Flutter, and WordPress for efficient development, demonstrated my prowess in JavaScript technologies, and excelled in creating dynamic web solutions while consistently delivering seamless user experiences. My tech stack is not just a collection of skills; it's a testament to my commitment to staying at the forefront of innovation in the ever-evolving landscape of software development.</p>
             </div>
 
-            {/* <div className="stage-cube-cont">
+            <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
                     <FontAwesomeIcon icon={faPhp} color="#DD0031" />
@@ -61,7 +59,7 @@ const About = () => {
                     <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     </>
     )
