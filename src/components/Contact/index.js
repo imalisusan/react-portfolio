@@ -66,7 +66,7 @@ const Contact = () => {
           <br />
           <br />
           Nairobi, <br />
-          Kenya <br />
+          Kenya. <br />
           <br />
           <span>susanimali52@gmail.com</span>
         </div>
