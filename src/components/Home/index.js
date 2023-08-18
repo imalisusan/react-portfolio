@@ -3,7 +3,17 @@ import { useState } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
-import Image from '../../assets/images/logo-image.jpeg'
+import {
+    faCss3,
+    faGitAlt,
+    faGolang,
+    faHtml5,
+    faLaravel,
+    faNodeJs,
+    faPhp,
+    faReact,
+  } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
     const [letterClass] = useState('text-animate')
@@ -30,8 +40,32 @@ const Home = () => {
                 </h1>
                 <h2>Fullstack Developer / Laravel Developer / Backend Developer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                
             </div>
-            {/* <img src={Image} className="home-image" alt="Logo" /> */}
+
+            <div className="stage-cube-cont">
+                <div className="cubespinner">
+                    <div className="face1">
+                    <FontAwesomeIcon icon={faPhp} color="#5ED4F4" />
+                    </div>
+                    <div className="face2">
+                    <FontAwesomeIcon icon={faLaravel} color="#F3F3F3" />
+                    </div>
+                    <div className="face3">
+                    <FontAwesomeIcon icon={faNodeJs} color="#5ED4F4" />
+                    </div>
+                    <div className="face4">
+                    <FontAwesomeIcon icon={faGolang} color="#F3F3F3" />
+                    </div>
+                    <div className="face5">
+                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                    </div>
+                    <div className="face6">
+                    <FontAwesomeIcon icon={faGitAlt} color="#F3F3F3" />
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 }
