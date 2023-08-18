@@ -4,10 +4,8 @@ import './index.scss'
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import {
-    faCss3,
     faGitAlt,
     faGolang,
-    faHtml5,
     faLaravel,
     faNodeJs,
     faPhp,
