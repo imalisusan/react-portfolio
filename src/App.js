@@ -5,6 +5,7 @@ import  Home from './components/Home'
 import React, { useEffect } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
       </Route>
     </Routes>
     </>

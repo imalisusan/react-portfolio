@@ -40,11 +40,7 @@
             z-index: 3;
             padding: 10px 20px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: linear-gradient(
-                180deg,
-                rgba(0, 0, 0, 0.2) 0,
-                rgba(0, 0, 0, 1)
-            );
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 1));
             bottom: -70px;
         }
 
@@ -79,11 +75,11 @@
             font-weight: 700;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             cursor: pointer;
-        }
 
-        .btn:hover {
-            transform: translateY(-3px);
-            background: #698FC4;
+            &:hover {
+                transform: translateY(-3px);
+                background: #698FC4;
+            }
         }
 
         &:after {
@@ -109,5 +105,20 @@
             bottom: 0;
             background: transparent;
         }
+
     }
+
+    p a {
+        color: #698FC4; 
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .sub-head {
+        color: #698FC4; 
+    }
+
 }
