@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+import Image from '../../assets/images/logo-image.jpeg'
 
 const Home = () => {
     const [letterClass] = useState('text-animate')
@@ -30,7 +31,7 @@ const Home = () => {
                 <h2>Fullstack Developer / Laravel Developer / Backend Developer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
-         
+            {/* <img src={Image} className="home-image" alt="Logo" /> */}
         </div>
     );
 }

@@ -78,6 +78,16 @@
         color: #333;
       }
     }
+    .home-image {
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 445px;
+      height: 450px; 
+      border-radius: 50%;
+      background-color: #ffd700; 
+    }
   }
   
   
