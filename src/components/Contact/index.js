@@ -13,7 +13,7 @@ const Contact = () => {
         e.preventDefault()
     
         emailjs
-          .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+          .sendForm('service_0cwk734', 'template_bvanzuh', form.current, '4x3BGjxHJjRwbnzhi')
           .then(
             () => {
               alert('Message successfully sent!')
@@ -43,10 +43,10 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Name" type="text" name="user_name" required />
                 </li>
                 <li className="half">
-                  <input placeholder="Email" type="email" name="email" required/>
+                  <input placeholder="Email" type="email" name="user_email" required/>
                 </li>
                 <li>
                   <input placeholder="Subject" type="text" name="subject" required/>
