@@ -28,9 +28,13 @@ const Portfolio = () => {
                 />
             </h1>
                 <p>These projects highlight my expertise and experience in FullStack PHP development, backend application creation, and educational platforms. They underscore my proficiency in a range of technologies, frameworks, and architectural principles.</p>
-               <p className="sub-head"><b><big>1. eBooks Application</big></b></p>
+               <p className="sub-head"><b><big>1. FarijiCare(Online Policy Purchase Application)</big></b></p>
                <p>
-During my role as a FullStack PHP Developer at Shuzia, I led the development of an eBooks application customized for a vibrant Christian community in Nigeria. I harnessed cutting-edge technologies like Laravel, REST APIs, MVC Architecture, Stripe payments integration, and comprehensive testing. The successful deployment on Digital Ocean ensured a seamless user experience. Explore the eBooks application at: https://books.shuzia.com/</p>
+               Contributed to FarijiCare's development, focusing on a Frontend User Policy Purchase web App, an Admin Insurer panel (Angular), and a CRM App for authentication and relationship management. Also, worked on a Payment Gateway (NestJS) ensuring secure transactions by integrating with the Daraja API. Check out the application at:https://policy.dawitdigital.com/</p>
+                <p className="sub-head"><b><big>2. eBooks Application</big></b></p>
+                            <p>
+                During my role as a FullStack PHP Developer at Shuzia, I led the development of an eBooks application customized for a vibrant Christian community in Nigeria. I harnessed cutting-edge technologies like Laravel, REST APIs, MVC Architecture, Stripe payments integration, and comprehensive testing. The successful deployment on Digital Ocean ensured a seamless user experience. Explore the eBooks application at: https://books.shuzia.com/</p>
+                            
                 <p className="sub-head"><b><big>2. Blog Application</big></b></p>
                 <p>
 Also at Shuzia, I took charge of creating a dynamic blog application tailored for a lively Christian community in Nigeria. Employing technologies such as Laravel, REST APIs, MVC Architecture, Stripe payments integration, and thorough testing, I ensured the application's effectiveness. The seamless deployment on Digital Ocean contributed to a user-friendly experience. Check out the blog application at: https://blog.shuzia.com/</p>
