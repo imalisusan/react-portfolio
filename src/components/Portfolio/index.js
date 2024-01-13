@@ -43,7 +43,7 @@ Also at Shuzia, I took charge of creating a dynamic blog application tailored fo
 During my internship at AMT Technologies, I pioneered the development of a robust backend application for an innovative road-feature detector. I leveraged technologies like Node.js, Express.js, Docker, gRPC, MongoDB, and RESTful web services </p>
                 <p className="sub-head"><b><big>5. Educational Scholarship Platform</big></b></p>
                 <p> 
-As a Part-Time Intern at Frog Technologies, I created an educational scholarship platform connecting struggling students with generous donors. By utilizing tools like Git, Laravel, Flutter, and integrating WordPress, I developed a platform that's both user-friendly and functional. I managed API integration, MVC Architecture, database migrations, and enhanced functionality with WordPress integration. Explore the platform at: https://admin.thejf.org/</p>
+I created an educational scholarship platform connecting struggling students with donors. By utilizing tools like Git, Laravel, Flutter, and integrating WordPress, I developed a platform that's both user-friendly and functional. I managed API integration, MVC Architecture, database migrations, and enhanced functionality with WordPress integration. </p>
             </div>
 
             <div className="stage-cube-cont">
