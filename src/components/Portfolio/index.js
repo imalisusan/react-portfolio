@@ -37,10 +37,10 @@ const Portfolio = () => {
                             
                 <p className="sub-head"><b><big>3. Blog Application</big></b></p>
                 <p>
-Also at Shuzia, I took charge of creating a dynamic blog application tailored for a lively Christian community in Nigeria. Employing technologies such as Laravel, REST APIs, MVC Architecture, Stripe payments integration, and thorough testing, I ensured the application's effectiveness. The seamless deployment on Digital Ocean contributed to a user-friendly experience. Check out the blog application at: https://blog.shuzia.com/</p>
+Also at Shuzia, I took charge of creating a dynamic blog application tailored for a lively Christian community in Nigeria. Employing technologies such as Laravel, REST APIs, MVC Architecture, Stripe payments integration, and thorough testing, I ensured the application's effectiveness.Check out the blog application at: https://blog.shuzia.com/</p>
                 <p className="sub-head"><b><big>4. Road-Feature Detector Backend Application</big></b></p>
                 <p>
-During my internship at AMT Technologies, I pioneered the development of a robust backend application for an innovative road-feature detector. I leveraged technologies like Node.js, Express.js, Docker, gRPC, MongoDB, and RESTful web services to ensure efficient communication and scalable data storage.</p>
+During my internship at AMT Technologies, I pioneered the development of a robust backend application for an innovative road-feature detector. I leveraged technologies like Node.js, Express.js, Docker, gRPC, MongoDB, and RESTful web services </p>
                 <p className="sub-head"><b><big>5. Educational Scholarship Platform</big></b></p>
                 <p> 
 As a Part-Time Intern at Frog Technologies, I created an educational scholarship platform connecting struggling students with generous donors. By utilizing tools like Git, Laravel, Flutter, and integrating WordPress, I developed a platform that's both user-friendly and functional. I managed API integration, MVC Architecture, database migrations, and enhanced functionality with WordPress integration. Explore the platform at: https://admin.thejf.org/</p>
